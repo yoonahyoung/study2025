@@ -108,7 +108,7 @@ root-path/
 ## 🔄 Git 전략
 
 ### Commit 규칙
-- **일일 커밋**: 매일 기록은 본인 브랜치(또는 Fork)에 커밋
+- **일일 커밋**: 매일 기록은 본인 브랜치에 커밋
 - **Commit 메시지**
   - `[날짜] 간단한 설명`
   - 예: `[2024-11-20] 프로젝트 기획 작성`
@@ -124,19 +124,10 @@ root-path/
   - 공유하고 싶은 내용
 
 ### Branch 전략
-
-**방법 1: Fork & PR (권장)**
-1. Repository Fork
-2. 본인 Fork에서 매일 커밋
-3. 주말(토/일)에 Pull Request 생성
-4. 모임에서 함께 리뷰 후 Merge
-
-**방법 2: Organization Member**
-1. Organization member 초대
-2. 본인 branch 생성 (`member/닉네임`)
-3. 본인 브랜치에 매일 커밋
-4. 주말(토/일)에 Main으로 Pull Request
-5. 모임에서 함께 리뷰 후 Merge
+1. 본인 branch 생성
+2. 본인 브랜치에 매일 commit
+3. 주말(토/일)에 Main으로 Pull Request
+4. 리뷰 후 Merge
 
 ## 📅 모임
 
